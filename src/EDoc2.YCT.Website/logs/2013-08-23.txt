@@ -1,0 +1,77 @@
+2013-08-23 11:15:19,763 [47] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 18
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575
+2013-08-23 11:15:34,732 [47] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 18
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575
+2013-08-23 11:15:52,473 [17] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 18
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575
+2013-08-23 11:16:03,458 [17] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 22
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575
+2013-08-23 11:17:15,518 [42] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 18
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575
+2013-08-23 11:17:24,478 [47] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 22
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575
+2013-08-23 11:18:47,215 [41] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 22
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575
+2013-08-23 11:20:51,466 [41] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 22
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575
+2013-08-23 11:22:27,598 [48] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 22
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575
+2013-08-23 11:23:52,874 [48] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 22
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575
+2013-08-23 11:24:59,512 [48] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.LishiZhishiDataModel..ctor(Zhishi zhishi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\LishiZhishiDataModel.cs:行号 22
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.ChuangjianLishi(String chuangjianren) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 81
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 123
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 575

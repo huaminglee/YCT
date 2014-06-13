@@ -1,0 +1,84 @@
+2013-08-19 14:46:14,147 [7] ERROR yctLogger [(null)] 
+ 值不能为 null。
+参数名: source
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetDaanGuanliQuanxianList() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 70
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetAllDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 745
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouDaanGuanliQuanxian(String yonghu, QuanxianZhi quanxianZhi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 733
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouYijiDaanGuanliQuanxian(String yonghu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 728
+   在 EDoc2.YCT.Website.Models.DaanGuanliQuanxianModel..ctor(Mulu mulu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\Models\DaanGuanliQuanxianModel.cs:行号 18
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 141
+2013-08-19 14:47:56,719 [11] ERROR yctLogger [(null)] 
+ 值不能为 null。
+参数名: source
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetDaanGuanliQuanxianList() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 70
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetAllDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 745
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouDaanGuanliQuanxian(String yonghu, QuanxianZhi quanxianZhi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 733
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouYijiDaanGuanliQuanxian(String yonghu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 728
+   在 EDoc2.YCT.Website.Models.DaanGuanliQuanxianModel..ctor(Mulu mulu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\Models\DaanGuanliQuanxianModel.cs:行号 18
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 141
+2013-08-19 14:50:46,300 [10] ERROR yctLogger [(null)] 
+ 值不能为 null。
+参数名: source
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetDaanGuanliQuanxianList() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 70
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetAllDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 745
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouDaanGuanliQuanxian(String yonghu, QuanxianZhi quanxianZhi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 733
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouYijiDaanGuanliQuanxian(String yonghu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 728
+   在 EDoc2.YCT.Website.Models.DaanGuanliQuanxianModel..ctor(Mulu mulu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\Models\DaanGuanliQuanxianModel.cs:行号 18
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 141
+2013-08-19 15:05:47,238 [16] ERROR yctLogger [(null)] 
+ 值不能为 null。
+参数名: source
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetDaanGuanliQuanxianList() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 75
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetAllDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 750
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouDaanGuanliQuanxian(String yonghu, QuanxianZhi quanxianZhi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 738
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouYijiDaanGuanliQuanxian(String yonghu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 733
+   在 EDoc2.YCT.Website.Models.DaanGuanliQuanxianModel..ctor(Mulu mulu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\Models\DaanGuanliQuanxianModel.cs:行号 18
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 141
+2013-08-19 15:18:20,504 [16] ERROR yctLogger [(null)] 
+ 值不能为 null。
+参数名: source
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetDaanGuanliQuanxianList() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 75
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetAllDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 750
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouDaanGuanliQuanxian(String yonghu, QuanxianZhi quanxianZhi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 738
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouYijiDaanGuanliQuanxian(String yonghu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 733
+   在 EDoc2.YCT.Website.Models.DaanGuanliQuanxianModel..ctor(Mulu mulu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\Models\DaanGuanliQuanxianModel.cs:行号 18
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 141
+2013-08-19 16:52:06,674 [16] ERROR yctLogger [(null)] 
+ 值不能为 null。
+参数名: source
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetDaanGuanliQuanxianList() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 75
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetAllDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 750
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouDaanGuanliQuanxian(String yonghu, QuanxianZhi quanxianZhi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 738
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouYijiDaanGuanliQuanxian(String yonghu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 733
+   在 EDoc2.YCT.Website.Models.DaanGuanliQuanxianModel..ctor(Mulu mulu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\Models\DaanGuanliQuanxianModel.cs:行号 16
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 142
+2013-08-19 16:53:25,598 [13] ERROR yctLogger [(null)] 
+ 值不能为 null。
+参数名: source
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetDaanGuanliQuanxianList() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 75
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.GetAllDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 750
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouDaanGuanliQuanxian(String yonghu, QuanxianZhi quanxianZhi) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 738
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.YouYijiDaanGuanliQuanxian(String yonghu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 733
+   在 EDoc2.YCT.Website.Models.DaanGuanliQuanxianModel..ctor(Mulu mulu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\Models\DaanGuanliQuanxianModel.cs:行号 16
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetDaanGuanliQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 142

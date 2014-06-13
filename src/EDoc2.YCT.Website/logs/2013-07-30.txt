@@ -1,0 +1,23 @@
+2013-07-30 15:04:35,249 [16] ERROR yctLogger [(null)] 
+ 找不到知识，可能知识已经被删除!
+System.Exception: 找不到知识，可能知识已经被删除!
+   在 EDoc2.YCT.Website.ZhishiHuoquController.GetZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiHuoquController.aspx.cs:行号 98
+2013-07-30 15:04:46,684 [16] ERROR yctLogger [(null)] 
+ 找不到知识，可能知识已经被删除!
+System.Exception: 找不到知识，可能知识已经被删除!
+   在 EDoc2.YCT.Website.ZhishiHuoquController.GetZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiHuoquController.aspx.cs:行号 98
+2013-07-30 15:36:46,544 [25] ERROR yctLogger [(null)] 
+ 修改失败，知识问题重复
+System.Exception: 修改失败，知识问题重复
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 102
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 436
+2013-07-30 15:37:48,506 [9] ERROR yctLogger [(null)] 
+ 修改失败，至少填写一个答案
+System.Exception: 修改失败，至少填写一个答案
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 106
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 436
+2013-07-30 15:38:04,017 [13] ERROR yctLogger [(null)] 
+ 修改失败，知识问题重复
+System.Exception: 修改失败，知识问题重复
+   在 EDoc2.YCT.ZhishiGuanli.Zhishi.Xiugai(String wenti, Nullable`1 shunxu, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, Boolean shengjiBanben, String xiugairen) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Zhishi.cs:行号 102
+   在 EDoc2.YCT.Website.ZhishiGianliController.XiugaiZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 436

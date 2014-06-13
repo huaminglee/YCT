@@ -1,0 +1,10 @@
+2013-05-07 15:40:01,284 [39] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.ZhishiGuanli.Daan.YouFujian(String mingcheng) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Daan.cs:行号 59
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.<>c__DisplayClass32.<ChaxunGuanliZhishiList>b__31(Zhishi x) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 245
+   在 System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.ChaxunGuanliZhishiList(String yonghu, String wenti, String daan, String fujian, Boolean baohanZiMulu) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 226
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetMuluZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 299

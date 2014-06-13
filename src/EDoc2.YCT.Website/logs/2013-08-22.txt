@@ -1,0 +1,5 @@
+2013-08-22 17:19:48,583 [12] ERROR yctLogger [(null)] 
+ 创建失败，知识问题重复
+System.Exception: 创建失败，知识问题重复
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.ChuangjianZhishi(String wenti, Nullable`1 shunxu, String chuangjianren, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian, String yonghu) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 516
+   在 EDoc2.YCT.Website.ZhishiGianliController.ChuangjianZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 549

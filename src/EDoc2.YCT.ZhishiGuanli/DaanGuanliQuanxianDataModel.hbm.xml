@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="EDoc2.YCT.ZhishiGuanli" assembly="EDoc2.YCT.ZhishiGuanli">
+  <class name="DaanGuanliQuanxianDataModel" table="yct_zsk_daanguanliquanxian">
+    <id name="Id" type="Int32" column="daanguanliquanxian_id" unsaved-value="0">
+      <generator class="identity">
+      </generator>
+    </id>
+    <property name="Mulu" type="int" column="daanguanliquanxian_mulu"></property>
+    <property name="Zhi" type="int" column="daanguanliquanxian_zhi"></property>
+    <property name="ChengyuanId" type="int" column="daanguanliquanxian_chengyuanId"></property>
+    <property name="ChengyuanMingcheng" type="string" column="daanguanliquanxian_chengyuanMingcheng"></property>
+    <property name="ChengyuanLeixing" type="int" column="daanguanliquanxian_chengyuanLeixing"></property>
+  </class>
+</hibernate-mapping>

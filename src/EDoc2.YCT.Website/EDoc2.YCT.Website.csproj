@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D94E8C77-C8BE-48C9-9FAD-53B476990DE6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EDoc2.YCT.Website</RootNamespace>
+    <AssemblyName>EDoc2.YCT.Website</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>..\..\lib\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2">
+      <HintPath>S:\4.72\EDoc2.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Api">
+      <HintPath>S:\4.72\EDoc2.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Api.Organization">
+      <HintPath>S:\4.72\EDoc2.Api.Organization.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Core">
+      <HintPath>S:\4.72\EDoc2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.ICore">
+      <HintPath>S:\4.72\EDoc2.ICore.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.IOrganization">
+      <HintPath>S:\4.72\EDoc2.IOrganization.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Website">
+      <HintPath>S:\4.72\EDoc2.Website.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Website.Core">
+      <HintPath>S:\4.72\EDoc2.Website.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\..\lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="JueKit">
+      <HintPath>S:\4.72\JueKit.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap-responsive.css" />
+    <Content Include="css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\cupertino\images\animated-overlay.gif" />
+    <Content Include="css\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="css\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="css\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="css\cupertino\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="css\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="css\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="css\cupertino\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="css\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="css\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="css\cupertino\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="css\cupertino\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\cupertino\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="css\cupertino\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="css\cupertino\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="css\cupertino\images\ui-treenode-collapse.gif" />
+    <Content Include="css\cupertino\images\ui-treenode-expand.gif" />
+    <Content Include="css\cupertino\images\ui-treenode-leaf.gif" />
+    <Content Include="css\cupertino\jquery-ui-1.10.1.custom.min.css" />
+    <Content Include="css\cupertino\jquery-ui-datagrid.css" />
+    <Content Include="css\cupertino\jquery-ui-tree.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\multi-select.css" />
+    <Content Include="css\select2-spinner.gif" />
+    <Content Include="css\select2.css" />
+    <Content Include="css\select2.png" />
+    <Content Include="css\select2x2.png" />
+    <Content Include="ExpiredContractMessage.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="img\folder16.gif" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\mainBgM.png" />
+    <Content Include="img\switch.png" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\chuangjianMuluDialog.js" />
+    <Content Include="js\houtaiDaanMuluQuanxianGuanli.js" />
+    <Content Include="js\houtaiDananQuanxianMuluGuanli.js" />
+    <Content Include="js\jquery-1.9.1.js" />
+    <Content Include="js\jquery-extend.js" />
+    <Content Include="js\jquery-ui-1.10.1.custom.min.js" />
+    <Content Include="js\jquery-validate.min.js" />
+    <Content Include="js\jquery.json-2.3.js" />
+    <Content Include="js\jquery.multi-select.js" />
+    <Content Include="js\jquery.quicksearch.js" />
+    <Content Include="js\jquery.ui.datagrid.js" />
+    <Content Include="js\jquery.ui.tree.js" />
+    <Content Include="js\lishiZhishiDialog.js" />
+    <Content Include="js\muluGuanli.js" />
+    <Content Include="js\select2.js" />
+    <Content Include="js\select2_locale_zh-CN.js" />
+    <Content Include="js\tianjiaHoutaiDaanMuluQuanxianDialog.js" />
+    <Content Include="js\tianjiaMuluQuanxianDialog.js" />
+    <Content Include="js\xiugaiHoutaiDaanMuluQuanxianDialog.js" />
+    <Content Include="js\zhishiGuanli.js" />
+    <Content Include="js\xiugaiMuluDialog.js" />
+    <Content Include="js\muluQuanxianDialog.js" />
+    <Content Include="js\xiugaiMuluQuanxianDialog.js" />
+    <Content Include="js\chuangjianZhishiDialog.js" />
+    <Content Include="js\xiugaiZhishiDialog.js" />
+    <Content Include="js\zhishiChaxunDialog.js" />
+    <Content Include="js\zhishiChakanDialog.js" />
+    <Content Include="js\muluXuanzeDialog.js" />
+    <Content Include="OALink.aspx" />
+    <Content Include="OALoginSetting.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="ZhishiGianli.aspx" />
+    <Content Include="ZhishiGianliController.aspx" />
+    <Content Include="ZhishiHoutaiDaanQuanxianGuanli.aspx" />
+    <Content Include="ZhishiHuoqu.aspx" />
+    <Content Include="ZhishiHuoquController.aspx" />
+    <Content Include="_Login.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExpiredContractMessage.aspx.cs">
+      <DependentUpon>ExpiredContractMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExpiredContractMessage.aspx.designer.cs">
+      <DependentUpon>ExpiredContractMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ActionResultModel.cs" />
+    <Compile Include="Models\ChuangjianZhishiModel.cs" />
+    <Compile Include="Models\DaanGuanliQuanxianModel.cs" />
+    <Compile Include="Models\DaanModel.cs" />
+    <Compile Include="Models\DataGridModel.cs" />
+    <Compile Include="Models\FujianModel.cs" />
+    <Compile Include="Models\MemberSelect2Model.cs" />
+    <Compile Include="Models\MuluModel.cs" />
+    <Compile Include="Models\MuluTreeModel.cs" />
+    <Compile Include="Models\QuanxianModel.cs" />
+    <Compile Include="Models\Select2Model.cs" />
+    <Compile Include="Models\ZhishiChakanModel.cs" />
+    <Compile Include="Models\ZhishiModel.cs" />
+    <Compile Include="Models\XiugaiZhishiModel.cs" />
+    <Compile Include="Models\LishiZhishiModel.cs" />
+    <Compile Include="OALink.aspx.cs">
+      <DependentUpon>OALink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OALink.aspx.designer.cs">
+      <DependentUpon>OALink.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OALoginSetting.aspx.cs">
+      <DependentUpon>OALoginSetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OALoginSetting.aspx.designer.cs">
+      <DependentUpon>OALoginSetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebHelper.cs" />
+    <Compile Include="YCTLogin.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZhishiGianli.aspx.cs">
+      <DependentUpon>ZhishiGianli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZhishiGianli.aspx.designer.cs">
+      <DependentUpon>ZhishiGianli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ZhishiGianliController.aspx.cs">
+      <DependentUpon>ZhishiGianliController.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZhishiGianliController.aspx.designer.cs">
+      <DependentUpon>ZhishiGianliController.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ZhishiHoutaiDaanQuanxianGuanli.aspx.cs">
+      <DependentUpon>ZhishiHoutaiDaanQuanxianGuanli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZhishiHoutaiDaanQuanxianGuanli.aspx.designer.cs">
+      <DependentUpon>ZhishiHoutaiDaanQuanxianGuanli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ZhishiHuoqu.aspx.cs">
+      <DependentUpon>ZhishiHuoqu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZhishiHuoqu.aspx.designer.cs">
+      <DependentUpon>ZhishiHuoqu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ZhishiHuoquController.aspx.cs">
+      <DependentUpon>ZhishiHuoquController.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ZhishiHuoquController.aspx.designer.cs">
+      <DependentUpon>ZhishiHuoquController.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Login.aspx.cs">
+      <DependentUpon>_Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Login.aspx.designer.cs">
+      <DependentUpon>_Login.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EDoc2.YCT.Core\EDoc2.YCT.Core.csproj">
+      <Project>{DBE47468-3D8C-49B0-9F55-26B2DC265FC7}</Project>
+      <Name>EDoc2.YCT.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EDoc2.YCT.ZhishiGuanli\EDoc2.YCT.ZhishiGuanli.csproj">
+      <Project>{2103A4C4-5930-4281-8B7A-AC9581565663}</Project>
+      <Name>EDoc2.YCT.ZhishiGuanli</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EDoc2.YctZhishiku.HB.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5107</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

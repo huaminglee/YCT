@@ -1,0 +1,5 @@
+2013-05-06 15:33:28,657 [47] ERROR yctLogger [(null)] 
+ 顶级目录不能删除!
+EDoc2.YCT.ZhishiGuanli.Exceptions.DingjiMuluException: 顶级目录不能删除!
+   在 EDoc2.YCT.ZhishiGuanli.DingjiMulu.Shanchu() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\DingjiMulu.cs:行号 20
+   在 EDoc2.YCT.Website.ZhishiGianliController.ShanchuMulu() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 361

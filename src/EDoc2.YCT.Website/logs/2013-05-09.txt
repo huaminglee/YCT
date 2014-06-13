@@ -1,0 +1,37 @@
+2013-05-09 15:50:15,048 [4] ERROR yctLogger [(null)] 
+ 知识问题重复
+System.Exception: 知识问题重复
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.ChuangjianZhishi(String wenti, Int32 shunxu, String chuangjianren, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 493
+   在 EDoc2.YCT.Website.ZhishiGianliController.ChuangjianZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 394
+2013-05-09 17:16:48,928 [23] ERROR yctLogger [(null)] 
+ Could not convert string to integer: . Path 'shunxu', line 1, position 118.
+Newtonsoft.Json.JsonReaderException: Could not convert string to integer: . Path 'shunxu', line 1, position 118.
+   在 Newtonsoft.Json.JsonReader.ReadAsInt32Internal()
+   在 Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter, Boolean inArray)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateAndPopulateObject(JsonReader reader, JsonObjectContract contract, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 EDoc2.YCT.Website.ZhishiGianliController.ChuangjianZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 386
+2013-05-09 17:20:52,104 [19] ERROR yctLogger [(null)] 
+ Could not convert string to integer: . Path 'shunxu', line 1, position 102.
+Newtonsoft.Json.JsonReaderException: Could not convert string to integer: . Path 'shunxu', line 1, position 102.
+   在 Newtonsoft.Json.JsonReader.ReadAsInt32Internal()
+   在 Newtonsoft.Json.JsonTextReader.ReadAsInt32()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter, Boolean inArray)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateAndPopulateObject(JsonReader reader, JsonObjectContract contract, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 EDoc2.YCT.Website.ZhishiGianliController.ChuangjianZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 386

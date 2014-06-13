@@ -1,0 +1,15 @@
+﻿body
+{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+a {color: #3E88AB;}
+.icon-folder{background: url(../img/folder16.gif) no-repeat; background-position:center; width: 16px; height: 14px;  }
+.form-horizontal .control-label{width: 100px;}
+.form-horizontal .controls {margin-left: 120px;}
+.ui-pager {}
+.ui-pager input {width: 2em;}
+.ui-pager a, .ui-pager span, 
+.ui-pager input{margin:0 .3em;}
+hr{border-color:#E1E1E8}
+.bg-mainBgM {background:url(../img/mainBgM.png) no-repeat;background-position:top; height: 600px;}

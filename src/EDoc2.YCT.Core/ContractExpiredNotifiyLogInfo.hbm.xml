@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="EDoc2.YCT.Core" assembly="EDoc2.YCT.Core">
+    <class name="ContractExpiredNotifiyLogInfo" table="yct_contractExpiredNotifiyLog">
+        <id name="Id" type="Int32" column="log_id" unsaved-value="0">
+            <generator class="native" />
+        </id>
+        <property name="EDoc2FileId" type="Int32" column="file_id"/>
+        <property name="ExpireDate" type="DateTime" column="ctr_expireDate"/>
+    </class>
+</hibernate-mapping>

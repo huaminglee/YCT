@@ -1,0 +1,34 @@
+2013-05-08 15:44:07,784 [43] ERROR yctLogger [(null)] 
+ 值不能为 null。
+参数名: String
+System.ArgumentNullException: 值不能为 null。
+参数名: String
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Int32.Parse(String s)
+   在 EDoc2.YCT.Website.ZhishiGianliController.YidongZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 452
+2013-05-08 16:30:29,391 [4] ERROR yctLogger [(null)] 
+ 不能移动到下级目录中
+System.Exception: 不能移动到下级目录中
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.TianjiaMulu(Mulu mulu) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 628
+   在 EDoc2.YCT.Website.ZhishiGianliController.YidongMulu() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 480
+2013-05-08 16:36:02,820 [4] ERROR yctLogger [(null)] 
+ 移动的目录中已经包含该目录
+System.Exception: 移动的目录中已经包含该目录
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.TianjiaMulu(Mulu mulu) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 624
+   在 EDoc2.YCT.Website.ZhishiGianliController.YidongMulu() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 480
+2013-05-08 16:36:09,965 [4] ERROR yctLogger [(null)] 
+ 移动的目录中已经包含该目录
+System.Exception: 移动的目录中已经包含该目录
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.TianjiaMulu(Mulu mulu) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 624
+   在 EDoc2.YCT.Website.ZhishiGianliController.YidongMulu() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 480
+2013-05-08 16:41:05,090 [14] ERROR yctLogger [(null)] 
+ 不能移动自己目录中
+System.Exception: 不能移动自己目录中
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.TianjiaMulu(Mulu mulu) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 620
+   在 EDoc2.YCT.Website.ZhishiGianliController.YidongMulu() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 480
+2013-05-08 16:42:14,230 [15] ERROR yctLogger [(null)] 
+ 移动的目录中已经包含该知识
+System.Exception: 移动的目录中已经包含该知识
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.TianjiaZhishi(Zhishi zhishi) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 599
+   在 EDoc2.YCT.Website.ZhishiGianliController.YidongZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 459

@@ -1,0 +1,45 @@
+2013-03-19 16:04:05,967 [4] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetChildDepartments(Int32 parentId) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 168
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetBumenSelect2Model() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 158
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetMemberSelect2() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 132
+2013-03-19 16:04:06,714 [8] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.Website.WebsiteUtility.get_CurrentUser()
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetZiMulu() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 202
+2013-03-19 16:04:06,746 [4] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.Website.WebsiteUtility.get_CurrentUser()
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetMuluZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 290
+2013-03-19 16:04:59,197 [9] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetChildDepartments(Int32 parentId) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 168
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetBumenSelect2Model() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 158
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetMemberSelect2() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 132
+2013-03-19 16:04:59,765 [4] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.Website.WebsiteUtility.get_CurrentUser()
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetZiMulu() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 202
+2013-03-19 16:04:59,804 [8] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.Website.WebsiteUtility.get_CurrentUser()
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetMuluZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 290
+2013-03-19 17:40:25,664 [12] ERROR yctLogger [(null)] 
+ 值不能为 null。
+参数名: value
+System.ArgumentNullException: 值不能为 null。
+参数名: value
+   在 System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   在 System.String.IndexOf(String value, StringComparison comparisonType)
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.<>c__DisplayClass32.<ChaxunGuanliZhishiList>b__31(Zhishi x) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 253
+   在 System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.ChaxunGuanliZhishiList(String yonghu, String wenti, String daan, String fujian, Boolean baohanZiMulu) 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 218
+   在 EDoc2.YCT.Website.ZhishiGianliController.GetMuluZhishi() 位置 F:\Macrowing\项目开发\Y羊城通\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 299

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DBE47468-3D8C-49B0-9F55-26B2DC265FC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EDoc2.YCT.Core</RootNamespace>
+    <AssemblyName>EDoc2.YCT.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EDoc2">
+      <HintPath>S:\4.72\EDoc2.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Api">
+      <HintPath>S:\4.72\EDoc2.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Api.Organization">
+      <HintPath>S:\4.72\EDoc2.Api.Organization.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Core">
+      <HintPath>S:\4.72\EDoc2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.ICore">
+      <HintPath>S:\4.72\EDoc2.ICore.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.IOrganization">
+      <HintPath>S:\4.72\EDoc2.IOrganization.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Organization">
+      <HintPath>S:\4.72\EDoc2.Organization.dll</HintPath>
+    </Reference>
+    <Reference Include="JueKit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>S:\4.72\JueKit.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>..\..\lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle">
+      <HintPath>..\..\lib\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApiManager.cs" />
+    <Compile Include="ContractExpireDaysCalculativeService.cs" />
+    <Compile Include="ContractExpiredFolderNotifier.cs" />
+    <Compile Include="ContractExpiredNotifiyDataManager.cs" />
+    <Compile Include="ContractExpiredNotifiyLogInfo.cs" />
+    <Compile Include="ContractExpiredNotifyService.cs" />
+    <Compile Include="ContractExtensionService.cs" />
+    <Compile Include="ContractManagerHelper.cs" />
+    <Compile Include="ContractShujuXiuhuService.cs" />
+    <Compile Include="ContractStatus.cs" />
+    <Compile Include="Contract.cs" />
+    <Compile Include="ContractFactory.cs" />
+    <Compile Include="ContractInfo.cs" />
+    <Compile Include="EDoc2MetadataHelper.cs" />
+    <Compile Include="MailSender.cs" />
+    <Compile Include="NHibernateHelper.cs" />
+    <Compile Include="OALoginSettingInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContractInfo.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EDoc2.YCT.HB.config" />
+    <None Include="nhibernate-mapping.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ContractExpiredNotifiyLogInfo.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="OALoginSettingInfo.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

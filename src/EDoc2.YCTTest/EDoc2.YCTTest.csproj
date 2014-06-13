@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BE6C82FC-61A9-4695-94BE-0EBF5C9BAB3F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EDoc2.YCTTest</RootNamespace>
+    <AssemblyName>EDoc2.YCTTest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EDoc2">
+      <HintPath>S:\4.72\EDoc2.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Api">
+      <HintPath>S:\4.72\EDoc2.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.Api.Organization">
+      <HintPath>S:\4.72\EDoc2.Api.Organization.dll</HintPath>
+    </Reference>
+    <Reference Include="EDoc2.ICore">
+      <HintPath>S:\4.72\EDoc2.ICore.dll</HintPath>
+    </Reference>
+    <Reference Include="JueKit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>S:\4.72\JueKit.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>S:\Nunit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApiManager.cs" />
+    <Compile Include="ContractExpiredNotifiyDataManagerTester.cs" />
+    <Compile Include="ContractTester.cs" />
+    <Compile Include="MetadataTester.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZhishikuTester.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EDoc2.YCT.Core\EDoc2.YCT.Core.csproj">
+      <Project>{DBE47468-3D8C-49B0-9F55-26B2DC265FC7}</Project>
+      <Name>EDoc2.YCT.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EDoc2.YCT.ZhishiGuanli\EDoc2.YCT.ZhishiGuanli.csproj">
+      <Project>{2103A4C4-5930-4281-8B7A-AC9581565663}</Project>
+      <Name>EDoc2.YCT.ZhishiGuanli</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EDoc2.YctZhishiku.HB.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="副本 EDoc2.YCT.HB.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

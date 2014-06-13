@@ -1,0 +1,9 @@
+2013-08-21 15:12:23,362 [20] ERROR yctLogger [(null)] 
+ 未将对象引用设置到对象的实例。
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 EDoc2.YCT.Website.ZhishiGianliController.ShanchuMuluQuanxian() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 729
+2013-08-21 15:23:57,706 [11] ERROR yctLogger [(null)] 
+ 创建失败，至少填写一个答案
+System.Exception: 创建失败，至少填写一个答案
+   在 EDoc2.YCT.ZhishiGuanli.Mulu.ChuangjianZhishi(String wenti, Nullable`1 shunxu, String chuangjianren, String yijiDaanNeirong, List`1 yijiDaanFujian, String erjiDaanNeirong, List`1 erjiDaanFujian, String sanjiDaanNeirong, List`1 sanjiDaanFujian, String sijiDaanNeirong, List`1 sijiDaanFujian, String wujiDaanNeirong, List`1 wujiDaanFujian) 位置 D:\WorkFile\develop\src\EDoc2.YCT.ZhishiGuanli\Mulu.cs:行号 522
+   在 EDoc2.YCT.Website.ZhishiGianliController.ChuangjianZhishi() 位置 D:\WorkFile\develop\src\EDoc2.YCT.Website\ZhishiGianliController.aspx.cs:行号 548

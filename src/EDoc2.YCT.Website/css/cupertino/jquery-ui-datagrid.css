@@ -1,0 +1,13 @@
+.ui-datagrid{ overflow: auto; }
+.ui-datagrid table{ empty-cells: show;table-layout: fixed; border-collapse: collapse;margin: 0;padding: 0;width:0;}
+.ui-datagrid-header {overflow: hidden; } 
+.ui-datagrid-header-content{background: #deedf7 url(images/ui-bg_highlight-soft_100_deedf7_1x100.png) 50% 50% repeat-x; color: #222222;}
+.ui-datagrid-header table th {cursor: pointer; position: relative; padding: 3px 5px;text-align: left;vertical-align: top;border: solid 1px #EEEEEE;background: #deedf7 url(images/ui-bg_highlight-soft_100_deedf7_1x100.png) 50% 50% repeat-x; }
+.ui-datagrid-header-title { overflow: hidden; word-wrap: break-word; color: #222222; font-weight: bold;}
+.ui-datagrid-header-sort-icon {float: right; font-size: 9px; padding-top: 3px;}
+.ui-datagrid-body{ overflow: auto;}
+.ui-datagrid-body .ui-datagrid-body-content{}
+.ui-datagrid-row table td {overflow: hidden; word-wrap: break-word; padding: 3px 5px;text-align: left;vertical-align: top;border: solid 1px #EEEEEE; border-top: none 0; }
+.ui-datagrid-oddrow table td{background-color: #f4f4f4;}
+.ui-datagrid-hover table td{ background: #fbf9ee ; color: #363636;}
+.ui-datagrid-selected table td{ background: #dadada ; color: #212121;}
